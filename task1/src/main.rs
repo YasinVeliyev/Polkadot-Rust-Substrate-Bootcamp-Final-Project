@@ -6,8 +6,8 @@ fn main() {
 }
 
 
-fn concatenate_strings(a:&str,b:&str) ->String {
-    let mut result = String::from(a);
-    result.push_str(b);
+fn concatenate_strings(str1:&str,str2:&str) ->String {
+    let mut result = String::from(str1);
+    result.push_str(str2);
     result
 }
