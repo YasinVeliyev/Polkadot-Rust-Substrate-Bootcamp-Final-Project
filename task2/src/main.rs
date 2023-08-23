@@ -72,9 +72,9 @@ fn main() {
         }
 
         let num2 = match b.trim().parse::<f64>() {
-            Ok(b) => {
+            Ok(num) => {
                 second_number_is_valid = true;
-                b
+                num
             }
             Err(_) => {
                 println!("Enter a number!");
