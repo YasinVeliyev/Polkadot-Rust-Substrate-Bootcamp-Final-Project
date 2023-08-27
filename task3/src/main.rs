@@ -34,10 +34,7 @@ impl FilterCondition {
 }
 
 fn custom_filter(v: Vec<i32>, filter: &FilterCondition) -> Vec<i32> {
-    v.iter()
-        .filter(|a| filter.is_match(**a))
-        .map(|a| *a)
-        .collect()
+    v.into_iter().filter(|a| filter.is_match(*a)).collect()
 }
 fn main() {
     let vector = vec![1, 2, 3, 4, 5, 6, 7, 8, 3, 8, 3, 9];
