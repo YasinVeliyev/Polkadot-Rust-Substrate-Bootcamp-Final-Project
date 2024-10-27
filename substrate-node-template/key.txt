@@ -1,0 +1,63 @@
+#yasin
+hand air load couch holiday genre title involve boil diamond purchase burst
+
+Public key (SS58): 5CoHtFQyh2v9jYd4C63co1XMrHnkLvdZBV7rRXkfu7fLqchq
+SS58 Address:      5CoHtFQyh2v9jYd4C63co1XMrHnkLvdZBV7rRXkfu7fLqchq
+
+Public key (SS58): 5CQK7jepgC77bTD23uKT2pwGzpnzL7DkZobDHMKCj3x8uRZk  //grandpa
+SS58 Address:      5CQK7jepgC77bTD23uKT2pwGzpnzL7DkZobDHMKCj3x8uRZk
+
+Secret seed:       0x1b0c08f38642e3a5a567b85ac69a5368114b17ea624eee45423845f10557e618
+Public key (hex):  0x207ada5911eae8daa6e23489e80a162224d92647ccb99e232b31a9f60022643c
+
+
+
+#nisay
+knee hamster hub legend debate noise rabbit siege secret place awkward purse
+
+Secret seed:       0x0d8bfd3a2b25b10932439feff65651dcbc4620e927d2e48f7c8ff82b7a9282f6
+Public key (hex):  0x2450c3a22af552c766af5bcd9b4634fb9cf5f23bb837046abe547b170e9a3724
+
+Account ID:        0x2450c3a22af552c766af5bcd9b4634fb9cf5f23bb837046abe547b170e9a3724
+
+Public key (SS58): 5CtKaBnCqQGaTXDeCbgfmwRSx74K9J39Uhrh1WZxDJtkHrGc
+SS58 Address:      5CtKaBnCqQGaTXDeCbgfmwRSx74K9J39Uhrh1WZxDJtkHrGc
+
+
+Public key (SS58): 5H18HqTEsiajCFXz5qFCgGxdHt56D1U7wAcdKEBCTMTzLMjT      //grandpa
+SS58 Address:      5H18HqTEsiajCFXz5qFCgGxdHt56D1U7wAcdKEBCTMTzLMjT
+
+
+./target/release/node-template key insert --base-path /tmp/node01 \
+  --chain customSpecRaw.json \
+  --scheme Sr25519 \
+  --suri "hand air load couch holiday genre title involve boil diamond purchase burst" \
+  --password-interactive \
+  --key-type aura
+
+
+./target/release/node-template key insert \
+  --base-path /tmp/node01 \
+  --chain customSpecRaw.json \
+  --scheme Ed25519 \
+  --suri "hand air load couch holiday genre title involve boil diamond purchase burst" \
+  --password-interactive \
+  --key-type gran
+
+
+
+
+
+  ./target/release/node-template key insert --base-path /tmp/node02 \
+  --chain customSpecRaw.json \
+  --scheme Sr25519 \
+  --suri "knee hamster hub legend debate noise rabbit siege secret place awkward purse" \
+  --password-interactive \
+  --key-type aura
+
+
+  ./target/release/node-template key insert --base-path /tmp/node02 \
+  --chain customSpecRaw.json \
+  --scheme Ed25519 --suri "knee hamster hub legend debate noise rabbit siege secret place awkward purse" \
+  --password-interactive \
+  --key-type gran
